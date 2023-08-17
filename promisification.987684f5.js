@@ -1,0 +1,2 @@
+!function(){var n,e;(n="qwerqwervdf",e="https://api.github.com/users/".concat(n),new Promise((function(n,o){var t=new XMLHttpRequest;t.open("GET",e),t.send(),t.addEventListener("load",(function(){n(t)})),t.addEventListener("error",(function(){o(t)}))}))).then((function(n){return console.log(n),200===n.status?JSON.parse(n.responseText):Promise.reject("Error!!")})).then((function(n){console.log(n)})).catch((function(n){console.log(n)})).finally((function(){console.log("finally")}))}();
+//# sourceMappingURL=promisification.987684f5.js.map

@@ -1,0 +1,2 @@
+(e=>{const o=`https://api.github.com/users/${e}`;return new Promise(((e,n)=>{const s=new XMLHttpRequest;s.open("GET",o),s.send(),s.addEventListener("load",(()=>{e(s)})),s.addEventListener("error",(()=>{n(s)}))}))})("qwerqwervdf").then((e=>(console.log(e),200===e.status?JSON.parse(e.responseText):Promise.reject("Error!!")))).then((e=>{console.log(e)})).catch((e=>{console.log(e)})).finally((()=>{console.log("finally")}));
+//# sourceMappingURL=promisification.7b0aef62.js.map
